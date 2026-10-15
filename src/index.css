@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.font-arcade {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scanline and arcade glow effects */
+.arcade-panel {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.arcade-glow-red {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.4);
+}
+
+.arcade-glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+}
+
+.arcade-glow-amber {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.4);
+}

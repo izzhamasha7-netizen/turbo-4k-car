@@ -1,0 +1,6 @@
+{
+  "name": "Turbo 4K Mobile Racer",
+  "description": "Ultra-HD 4K mobile car racing arcade game with fluid touch controls, dynamic traffic, nitro boost, power-ups, and synthesized sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
